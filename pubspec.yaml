@@ -1,0 +1,17 @@
+name: sales_tracker
+description: A personal sales tracker app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  image_picker: ^1.0.4
+
+flutter:
+  uses-material-design: true
